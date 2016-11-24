@@ -20,6 +20,8 @@ public:
     void func() { cout << "Function func() of class Child\n"; }
 };
 
+void Function(const Base &obj)
+
 int main(int argc, char *argv[])
 {
     cout << "* Create Object base" << endl;
